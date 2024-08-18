@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<style type="text/css">
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 10;
+  left: 0;
+  overflow-x: hidden;
+  padding-left: 50px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 200px;
+  position: absolute;
+  z-index: -1;
+  padding: 0px 10px;
+}
+
+.wrapper {
+  box-shadow: 1px 1px 1px 1px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px; /* Add space between the cards */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav { padding-top: 15px; }
+  .sidenav a { font-size: 18px; }
+}
+</style>
+ <title>Injuries</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+ <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/training.css">
+<link rel="stylesheet" type="text/css" href="../static/css/selection.css">
+</head>
+<body>
+  <header>
+
+      
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+
+ 
+    
+
+
+  </div>
+  <div class="container" >
+    <div class="row">
+      
+      
+      
+
+      
+    </div>
+  </div>
+
+  <nav>
+    <div class="container-fluid main_navbar">
+      <div class="row">
+
+       
+          <ul class="main-icons">
+              <li class="active"><a href="{{ url_for('logout') }}">retour</a></li>
+              </ul>
+      </div>
+      
+    </div>
+
+
+  </nav>
+</header>
+
+<div style="height: 30px;"></div>
+<div class="container">
+    <div class="row " id="cricket">
+        
+         
+      <div class="column">
+        <div class="card">
+          <h3><b>Blessure à la cheville</b></h3>
+          <a href="#demo1" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo1" class="collapse">
+            <p align="left">Une blessure à la cheville se produit souvent lors de mouvements brusques ou d'une torsion excessive.<br>
+              <b>Symptômes:</b> Douleur, enflure, difficulté à marcher.<br>
+              <b>Récupération:</b> 4 à 6 semaines<br>
+              <b>Apport alimentaire:</b> Calcium et vitamine D, lait, fromage et yaourt</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Élongation des ischio-jambiers</b></h3>
+          <a href="#demo2" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo2" class="collapse">
+            <p align="left">Une élongation des ischio-jambiers est une tension ou une déchirure des tendons ou des gros muscles à l'arrière de la cuisse.<br>
+              <b>Symptômes:</b> Douleur soudaine et sévère, douleur à l'arrière de la cuisse, sensibilité, ecchymoses.<br>
+              <b>Récupération:</b> Semaines ou mois<br>
+              <b>Apport alimentaire:</b> Protéines et potassium, anthocyanines (composés végétaux), acides gras oméga-3, yaourt nature ou vanille avec des myrtilles, saumon grillé sur du riz sauvage, ou 1-2 tasses de brocoli cuit</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Déchirure du LCA</b></h3>
+          <a href="#demo3" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo3" class="collapse">
+            <p align="left">Une déchirure du ligament croisé antérieur (LCA) est une blessure courante au genou qui se produit souvent lors de sports impliquant des arrêts brusques et des changements de direction.<br>
+              <b>Symptômes:</b> Douleur intense, bruit de craquement, instabilité du genou.<br>
+              <b>Récupération:</b> Plusieurs mois<br>
+              <b>Apport alimentaire:</b> Protéines, calcium, aliments riches en vitamine C comme les agrumes et les légumes verts</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Déchirure du ménisque</b></h3>
+          <a href="#demo4" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo4" class="collapse">
+            <p align="left">Une déchirure du ménisque est une blessure courante du cartilage de l'articulation du genou.<br>
+              <b>Symptômes:</b> Douleur, enflure, difficulté à plier le genou.<br>
+              <b>Récupération:</b> 4 à 6 semaines<br>
+              <b>Apport alimentaire:</b> Glucosamine, chondroïtine, poissons gras comme le saumon et le maquereau</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Élongation de l'aine</b></h3>
+          <a href="#demo5" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo5" class="collapse">
+            <p align="left">Une élongation de l'aine est une blessure aux muscles de l'intérieur de la cuisse.<br>
+              <b>Symptômes:</b> Douleur, sensibilité, enflure.<br>
+              <b>Récupération:</b> Quelques semaines<br>
+              <b>Apport alimentaire:</b> Protéines, vitamine C, aliments riches en fer comme les épinards et les viandes maigres</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Élongation du mollet</b></h3>
+          <a href="#demo6" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo6" class="collapse">
+            <p align="left">Une élongation du mollet est une blessure aux muscles situés à l'arrière de la jambe.<br>
+              <b>Symptômes:</b> Douleur, sensibilité, difficulté à marcher.<br>
+              <b>Récupération:</b> 4 à 6 semaines<br>
+              <b>Apport alimentaire:</b> Protéines, potassium, aliments riches en magnésium comme les amandes et les avocats</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Commotion cérébrale</b></h3>
+          <a href="#demo7" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo7" class="collapse">
+            <p align="left">Une commotion cérébrale est une blessure au cerveau causée par un coup à la tête ou une secousse violente.<br>
+              <b>Symptômes:</b> Maux de tête, confusion, nausées, étourdissements.<br>
+              <b>Récupération:</b> Quelques jours à plusieurs semaines<br>
+              <b>Apport alimentaire:</b> Oméga-3, antioxydants, aliments riches en vitamines E et C comme les noix et les agrumes</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Luxation de l'épaule</b></h3>
+          <a href="#demo8" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo8" class="collapse">
+            <p align="left">Une luxation de l'épaule se produit lorsque l'os du bras sort de la cavité de l'épaule.<br>
+              <b>Symptômes:</b> Douleur intense, déformation visible, incapacité à bouger l'épaule.<br>
+              <b>Récupération:</b> 4 à 6 semaines<br>
+              <b>Apport alimentaire:</b> Calcium, vitamine D, aliments riches en magnésium comme les légumes verts</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Fracture</b></h3>
+          <a href="#demo9" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo9" class="collapse">
+            <p align="left">Une fracture est une rupture de l'os, souvent due à un traumatisme ou un impact sévère.<br>
+              <b>Symptômes:</b> Douleur intense, gonflement, incapacité à utiliser le membre affecté.<br>
+              <b>Récupération:</b> 6 à 8 semaines<br>
+              <b>Apport alimentaire:</b> Calcium, vitamine D, protéines, aliments riches en zinc comme les graines de citrouille</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Déchirure des ligaments</b></h3>
+          <a href="#demo10" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo10" class="collapse">
+            <p align="left">Une déchirure des ligaments se produit souvent lors de mouvements brusques ou de torsions excessives des articulations.<br>
+              <b>Symptômes:</b> Douleur, instabilité de l'articulation, gonflement.<br>
+              <b>Récupération:</b> 6 à 12 semaines<br>
+              <b>Apport alimentaire:</b> Protéines, vitamine C, aliments riches en collagène comme le bouillon d'os</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Élongation musculaire</b></h3>
+          <a href="#demo11" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo11" class="collapse">
+            <p align="left">Une élongation musculaire est une blessure fréquente qui se produit lorsque les muscles sont étirés au-delà de leurs capacités.<br>
+              <b>Symptômes:</b> Douleur, raideur, faiblesse musculaire.<br>
+              <b>Récupération:</b> Quelques jours à quelques semaines<br>
+              <b>Apport alimentaire:</b> Protéines, potassium, aliments riches en magnésium comme les bananes et les épinards</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <h3><b>Tendinite</b></h3>
+          <a href="#demo12" class="btn btn-info" data-toggle="collapse">Plus de détails</a>
+          <div id="demo12" class="collapse">
+            <p align="left">La tendinite est une inflammation d'un tendon, souvent due à une surutilisation ou à des mouvements répétitifs.<br>
+              <b>Symptômes:</b> Douleur, sensibilité, gonflement.<br>
+              <b>Récupération:</b> Quelques semaines à quelques mois<br>
+              <b>Apport alimentaire:</b> Oméga-3, antioxydants, aliments riches en vitamines E et C comme les noix et les baies</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+
+</body>
+<script type="text/javascript">
+     var nav = document.getElementById('nav');
+
+       window.onscroll = function () {
+
+         if(window.pageYOffset > 100){
+
+          nav.style.position = "fixed";
+          nav.style.top = 0;
+
+          }else{
+            // nav.style.position = "absolute";
+            nav.style.position = 'relative'; //fixed
+            nav.style.top = 100;
+          }
+       }
+
+
+</script>
+<script src="static/javascript/jquery.js"></script>
+<script src="static/javascript/bootstrap.min.js"></script>
+
+</html>

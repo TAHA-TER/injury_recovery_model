@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Prédiction du Temps de Récupération des Joueurs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/training.css" />
+    <link rel="stylesheet" href="static/css/selection.css"/>
+    
+
+    {% block style %}
+    {% endblock %}
+
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <!-- nav section1 login/register navigation -->
+        {% block nav1 %}
+        {% endblock %}
+        <!-- nav section2 marque -->
+        
+        <!-- nav section3 main navigation -->
+        
+        <!-- nav section4 sub navigation-->
+        {% block nav4 %}
+        {% endblock %}
+    </header>
+
+    
+    <!-- MAIN BODY CONTAINER -->
+    <div class="container-fluid">
+    {% block containt %}
+    {% endblock %}
+    </div>
+
+   
+                    
+                
+                
+             
+                </div>
+                <div class="col-sm-3">
+                    <ul style="background-" class="vertical-icons">
+                        
+                       
+                </div>
+                <div class="">
+                    <br><br>
+      
+                    
+                </div>
+            </div>
+        </div>
+      </footer>
+        
+
+
+</body>
+<script src="static/javascript/jquery.js"></script>
+<script src="static/javascript/bootstrap.min.js"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+
+        }, 'google_translate_element');
+    }
+
+</script>
+
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!---------------------------------------->
+{% block script %}
+{% endblock %}
+
+</html>
